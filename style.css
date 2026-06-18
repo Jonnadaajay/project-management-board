@@ -1,0 +1,48 @@
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f7fc;
+padding:20px;
+}
+h1{text-align:center;}
+.task-form{
+display:flex;
+gap:10px;
+margin:20px auto;
+max-width:700px;
+}
+input,select,button{
+padding:10px;
+}
+button{
+background:#2563eb;
+color:white;
+border:none;
+cursor:pointer;
+}
+.board{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+.column{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+min-height:300px;
+}
+.task{
+background:#e5e7eb;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+}
+.delete{
+background:#dc2626;
+color:white;
+padding:5px 10px;
+margin-top:8px;
+border:none;
+cursor:pointer;
+}

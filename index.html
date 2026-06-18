@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Management Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>📋 Project Management Board</h1>
+
+<div class="task-form">
+<input type="text" id="taskInput" placeholder="Enter Task">
+<select id="status">
+<option>To Do</option>
+<option>In Progress</option>
+<option>Done</option>
+</select>
+<button onclick="addTask()">Add Task</button>
+</div>
+
+<div class="board">
+<div class="column">
+<h2>To Do</h2>
+<div id="todo"></div>
+</div>
+
+<div class="column">
+<h2>In Progress</h2>
+<div id="progress"></div>
+</div>
+
+<div class="column">
+<h2>Done</h2>
+<div id="done"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
